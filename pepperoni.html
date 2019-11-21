@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ORDER PIZZA</title>
+  <link rel="stylesheet" href="styles/style.css">
+
+</head>
+
+<body class="background">
+  <style>
+    input[type=text],
+    select {
+      width: 20%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=submit] {
+      width: 20%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=number],
+    select {
+      width: 20%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+
+      input[type=submit]:hover {
+        background-color: #45a049;
+      }
+
+      div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+  </style>
+  <h1 class="checkouttop">Please enter details of your order: </h1></label><br><br><br>
+  <form class="background" id="frm1" action="result.html" method="post">
+    <label>Your Name</label><br>
+    <input type="text" id="name" name="" value="" required><br>
+    <label>Your address</label><br>
+    <input type="text" id="address" name="" value=""required><br>
+    <label>Your phone number</label><br>
+    <input type="text" id="phone" name="" value="" required><br>
+    <label>How many pizzas you want?</label><br>
+    <input type="number" id="quant" value="" onkeyup="price()" required><br>
+    <script type="text/javascript">
+      function price() {
+        let valueQuant = document.getElementById("quant").value;
+
+        valueQuant = parseInt(valueQuant);
+        if (valueQuant>0) {
+          document.getElementById("demo").innerHTML = valueQuant*5;
+        } else {
+          alert('Please, enter a valid quantity')
+        }
+
+      }
+    </script>
+    <input type="submit" name="" value="ORDER">
+  </form>
+  <h1>Total price is <span id="demo"></span>$</h1>
+  <footer class="footer">
+    <ul class="discip">
+      <h3>Visit</h3>
+      <hr>
+      <li class="fr"><a class="hov" href="index.html">Home</a></li>
+      <li class="fr"><a class="hov" href="learn.html">Learn Pizza types</a></li>
+      <li class="fr"><a class="hov" href="videos.html">Cooking Pizza</a></li>
+      <li class="fr"><a class="hov" href="about.html">About us</a></li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>

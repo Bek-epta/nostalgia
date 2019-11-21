@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.checkouttop {
+  margin: 5%;
+
+}
+.discip {
+  height: 10%;
+  text-align: left;
+}
+
+.background {
+  background-image: url("C:/Users/Bokhir/Downloads/Telegram Desktop/Animal/images/margheritaback.jpg");
+  text-align: center;
+  color: black;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.result{
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+.example {
+  background-color: rgb(27, 177, 27, 0.7);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.logo {
+    display: block;
+    width: 10em;
+    height: auto;
+}
+
+a,form {
+    text-decoration: none;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.nav {
+    text-align: center;
+    display: inline-block;
+    border: 2px solid rgb(243, 145, 34);
+    background-color: rgb(243, 145, 34);
+    border-radius: 30px;
+    padding: 12px;
+}
+.nav:hover {
+    opacity: 0.8;
+}
+.la {
+  position: absolute;
+  padding-left: 37px;
+  padding-right: 37px;
+  left: 23%;
+  width: 15%;
+}
+.v {
+    position: absolute;
+    margin-left: 50px;
+    padding-left: 37px;
+    padding-right: 37px;
+    border: 2px solid rgb(236, 30, 82);
+    background-color: rgb(236, 30, 82);
+    left: 46%;
+    width: 15%;
+}
+.ab {
+    position: absolute;
+    margin-left: 50px;
+    margin-right: 350px;
+    padding-left: 38px;
+    padding-right: 38px;
+    border: 2px solid rgb(183, 40, 240);
+    background-color: rgb(183, 40, 240);
+    left: 69%;
+    width: 15%;
+}
+.body1 {
+    background-color: white;
+    padding-bottom: 405px;
+}
+.mission {
+    text-align: center;
+    margin: auto;
+    padding: 5em;
+    width: 95%;
+    background-color: white;
+}
+.img_m {
+    float: right;
+    padding-right: 15px;
+    background-color: white;
+}
+.p_1 {
+    text-align: justify;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.types {
+    text-align: center;
+    padding-bottom: 40px;
+    background-color: rgb(241, 238, 238);
+}
+.h1 {
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    padding: 5em;
+    background-color: rgb(27, 177, 27);
+}
+.fr {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.hov:hover {
+    opacity: 0.7;
+}
+.h {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(18, 197, 108);
+}
+hr {
+    width: 200px;
+    margin-top: 10px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    color: white;
+}
+.photos div {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 15px;
+    position: relative;
+}
+.margherita {
+    background-color: rgb(223, 88, 10);
+    width: 300px;
+    height: 250px;
+    position: absolute;
+}
+.pepperoni {
+    background-color: rgb(43, 144, 226);
+    width: 300px;
+    height: 250px;
+    position: absolute;
+}
+.mix {
+    background-color: rgb(211, 51, 30);
+    width: 300px;
+    height: 250px;
+    position: absolute;
+}
+.marinara {
+    background-color: rgb(187, 6, 75);
+    width: 300px;
+    height: 250px;
+    position: absolute;
+}
+.neapolitan {
+    background-color: rgb(211, 198, 11);
+    width: 300px;
+    height: 250px;
+    position: absolute;
+}
+.deepdish {
+    background-color: rgb(114, 60, 240);
+    width: 300px;
+    height: 250px;
+    position: absolute;
+}
+.img {
+      margin-left: 10px;
+      margin-top: 25px;
+      border-radius: 5px;
+}
+h2 {
+      text-align: center;
+      padding-top: 8px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(10, 10, 10);
+}
+.nav:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+.logo:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+/* adopted from w3school */
+    @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+.main {
+    background-color: rgb(243, 145, 34);
+    padding-bottom: 20px;
+}
+.videos-main {
+    background-color: rgb(236, 30, 82);
+}
+.facts-main {
+    background-color: rgb(24, 166, 248);
+    padding: 0 80px 30px 80px;
+}
+.about-main {
+    background-color: rgb(165, 42, 214);
+    padding: 0 80px 15px 80px;
+}
+.h1_l {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 170px;
+    color: maroon;
+}
+.container {
+    position: relative;
+    width: 50%;
+  }
+
+.image {
+    display: block;
+    width: 380px;
+    height: 230px;
+    border: 5px solid #ddd;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(241, 238, 238, 0.603);
+    overflow: hidden;
+    width: 390px;
+    height:0;
+    transition: .5s ease;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.text {
+    color: rgb(10, 10, 10);
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.learn {
+    margin-left: 350px;
+    width: 580px;
+    border: 1px solid white;
+}
+.h1_f {
+    padding-top: 170px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(3, 20, 114)
+}
+.wrap {
+    float: left;
+    margin: 4px 10px 0px 0px;
+}
+.facts {
+    margin-left: 250px;
+    width: 650px;
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+.border {
+    background-color: rgba(243, 239, 230, 0.829);
+    border-style: dashed;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.types2 {
+    padding-bottom: 40px;
+    background-color: rgb(241, 238, 238);
+    padding-left: 80px;
+}
+.h1_a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 170px 0 0 0;
+    color: rgb(53, 19, 32);
+}
+.about {
+    margin: 0 0 30px 420px;
+    width: 300px;
+    border: 1px solid white;
+}
+.border_a {
+    background-color: rgb(250, 249, 248);
+    border-style: double;
+    margin: 0 80px 40px 80px;
+}
+iframe {
+    display: block;
+    padding: 30px 0 40px 250px;
+}
+.h1_v {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 170px 0 0 0;
+    color: rgb(15, 15, 15);
+}
+.videos {
+    margin: 0 0 30px 520px;
+    width: 250px;
+    border: 1px solid white;
+}
+#coursework {
+  color: blue;
+}
